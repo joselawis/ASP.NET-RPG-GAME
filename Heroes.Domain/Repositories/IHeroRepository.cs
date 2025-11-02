@@ -1,4 +1,5 @@
-﻿using Heroes.Domain.ValueObjects;
+﻿using Heroes.Domain.Entities;
+using Heroes.Domain.ValueObjects;
 
 namespace Heroes.Domain.Repositories
 {

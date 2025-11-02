@@ -1,8 +1,9 @@
 ﻿using Heroes.Domain.Common;
 using Heroes.Domain.Events;
 using Heroes.Domain.Exceptions;
+using Heroes.Domain.ValueObjects;
 
-namespace Heroes.Domain.ValueObjects
+namespace Heroes.Domain.Entities
 {
     public sealed class Hero : Entity<HeroId>
     {
