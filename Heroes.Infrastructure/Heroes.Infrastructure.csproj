@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heroes.Application\Heroes.Application.csproj" />
+    <ProjectReference Include="..\Heroes.Domain\Heroes.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Messaging\" />
+    <Folder Include="Persistence\Configuration\" />
+    <Folder Include="Persistence\Repositories\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
