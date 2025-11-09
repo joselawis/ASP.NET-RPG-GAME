@@ -11,11 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\CreateHero\" />
-    <Folder Include="Common\Interfaces\" />
     <Folder Include="Common\Behaviours\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Queries\GetHero\" />
   </ItemGroup>
 
   <ItemGroup>
