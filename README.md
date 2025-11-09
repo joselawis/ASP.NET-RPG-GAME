@@ -5,7 +5,18 @@ A learning project where I will go to do a simple RPG Game using microservice wi
 Application dependencies:
 - MediatR
 - FluentValidation
+- FluentValidation.DependencyInjectionExtensions
 
 Infrastructure dependencies:
-- Entity Framework Core
-- MassTransit
+- MassTransit.RabbitMQ
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.Design
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.Extensions.Http
+- Npgsql.EntityFrameworkCore.PostgreSQL
+
+API dependencies:
+- Microsoft.EntityFrameworkCore.Design
+- Serilog.AspNetCore
+- Serilog.Sinks.Console
+- Swashbuckle.AspNetCore

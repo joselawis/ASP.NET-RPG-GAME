@@ -1,0 +1,2 @@
+CREATE DATABASE heroesdb;
+CREATE DATABASE combatdb;
