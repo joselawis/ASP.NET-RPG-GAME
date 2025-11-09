@@ -2,7 +2,6 @@
 using Combat.Application.Queries.GetCombat;
 using Combat.Application.Queries.GetHeroCombatHistory;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Combat.API.Controllers
