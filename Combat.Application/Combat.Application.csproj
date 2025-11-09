@@ -16,4 +16,11 @@
     <ProjectReference Include="..\Combat.Domain\Combat.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
 </Project>
