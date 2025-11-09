@@ -6,3 +6,6 @@ Application dependencies:
 - MediatR
 - FluentValidation
 
+Infrastructure dependencies:
+- Entity Framework Core
+- MassTransit
