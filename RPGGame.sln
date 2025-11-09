@@ -32,6 +32,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		init-database.sql = init-database.sql
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -41,7 +42,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combat.Application", "Comba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combat.Infrastructure", "Combat.Infrastructure\Combat.Infrastructure.csproj", "{10EBE5E5-BFDE-4433-8D38-57B65934C76C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combat.API", "Combat.API\Combat.API.csproj", "{18FD7F79-C6DA-41F6-923A-10B1F51554B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combat.API", "Combat.API\Combat.API.csproj", "{A2AF8706-2E6E-44AD-BD66-61979674338A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,10 +78,10 @@ Global
 		{10EBE5E5-BFDE-4433-8D38-57B65934C76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10EBE5E5-BFDE-4433-8D38-57B65934C76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10EBE5E5-BFDE-4433-8D38-57B65934C76C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18FD7F79-C6DA-41F6-923A-10B1F51554B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18FD7F79-C6DA-41F6-923A-10B1F51554B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18FD7F79-C6DA-41F6-923A-10B1F51554B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18FD7F79-C6DA-41F6-923A-10B1F51554B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AF8706-2E6E-44AD-BD66-61979674338A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AF8706-2E6E-44AD-BD66-61979674338A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AF8706-2E6E-44AD-BD66-61979674338A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AF8706-2E6E-44AD-BD66-61979674338A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,7 +100,7 @@ Global
 		{A7ED9108-6079-4CAA-ADEF-D6B78CDE875D} = {A0B335E1-3996-467B-9ECF-33657CC8DED4}
 		{81535D13-653C-4466-A43F-B909808D09E5} = {A0B335E1-3996-467B-9ECF-33657CC8DED4}
 		{10EBE5E5-BFDE-4433-8D38-57B65934C76C} = {A0B335E1-3996-467B-9ECF-33657CC8DED4}
-		{18FD7F79-C6DA-41F6-923A-10B1F51554B1} = {A0B335E1-3996-467B-9ECF-33657CC8DED4}
+		{A2AF8706-2E6E-44AD-BD66-61979674338A} = {A0B335E1-3996-467B-9ECF-33657CC8DED4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFB01C88-D1CD-4AAD-A80D-E72C4E9D1522}
