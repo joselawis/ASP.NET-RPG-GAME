@@ -21,8 +21,4 @@
     <ProjectReference Include="..\Heroes.Infrastructure\Heroes.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
